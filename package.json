@@ -1,0 +1,26 @@
+{
+  "name": "budget_tracker",
+  "version": "1.0.0",
+  "description": "Budget Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeenaSmith/budget_tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeenaSmith/budget_tracker/issues"
+  },
+  "homepage": "https://github.com/DeenaSmith/budget_tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.18.1",
+    "heroku": "^7.60.2",
+    "mongoose": "^6.3.8",
+    "morgan": "^1.10.0"
+  }
+}
