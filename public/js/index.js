@@ -33,8 +33,8 @@ function populateTable() {
         // create and populate a table row
         let tr = document.createElement("tr");
         tr.innerHTML = `
-      <td>${transaction.name}</td>
-      <td>${transaction.value}</td>
+        <td>${transaction.name}</td>
+        <td>${transaction.value}</td>
     `;
 
         tbody.appendChild(tr);
